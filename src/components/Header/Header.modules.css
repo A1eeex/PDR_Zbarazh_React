@@ -1,0 +1,28 @@
+/*Header background*/
+
+#root > div > div > nav {
+    background-color: rgba(71, 71, 71, .5);
+    /*position: absolute;*/
+    z-index: 99999;
+    width: 100%;
+}
+/*Header nav*/
+#responsive-navbar-nav > div a {
+    transition: color .3s linear;
+    color: #cccccc;
+}
+#responsive-navbar-nav > div a:hover {
+    color: #f3b93e;
+}
+
+
+.NavLogoTitle {
+    padding-top: 21px;
+    color: #f3b93e;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.containerLogoTitleFlex {
+    display: flex;
+}

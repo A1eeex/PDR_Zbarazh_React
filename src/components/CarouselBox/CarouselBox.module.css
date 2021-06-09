@@ -1,0 +1,38 @@
+.captionTitleContainer {
+    position:absolute;
+    top: 293px;
+    color: #ffffff;
+
+}
+.captionTitleContainer h3{
+      font-size: 83px;
+    font-weight: 300;
+    text-align: start;
+    margin: 0px;
+    line-height: .8;
+}
+.captionTitleContainer {
+  padding-top: 25px;
+}
+
+
+.captionTitleContainer{
+    position:absolute;
+    top: 293px;
+    color: #ffffff;
+}
+.IntroTitleContainer{
+padding-bottom:20px;
+}
+.IntroTitle{
+    font-size: 83px;
+    font-weight: 300;
+    text-align: start;
+    margin: 0px;
+    line-height: .85;
+}
+.IntroSubtitle{
+    margin: 0px;
+    line-height: 1.7;
+    font-size: 17px;
+}

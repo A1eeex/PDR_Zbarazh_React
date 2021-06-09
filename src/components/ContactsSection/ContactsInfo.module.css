@@ -1,0 +1,50 @@
+.addresSection{
+    display: flex;
+}
+.allContactsContainer{
+    display: flex;
+    padding-top:15px;
+    padding-bottom:25px;
+}
+.allContactsContainerLeft{
+    width: 50%;
+}
+.allContactsContainerRight {
+    width: 50%;
+    /*justify-content:flex-end;*/
+}
+.allContactsContainerTitles{
+
+    font-size:20px;
+    color: #4f4f4f;
+    font-weight:500;
+}
+.containerTitleWrapper{
+    width:100%;
+    display: flex;
+}
+
+.containerTitleWrapTitle{
+    width:18%
+}
+.containerTitleWrapTitleAddress{
+    width:70%;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.containerTitleWrapTitleAddress a{
+    color: rgba(36, 36, 36, 0.91);
+    transition: color .2s linear;
+    cursor: pointer;
+}
+.containerTitleWrapTitleAddress a svg{
+    font-size: 20px;
+    margin: 0 5px 5px 5px;
+}
+.containerTitleWrapTitleAddress a:hover{
+    color: #f3b93e;
+
+}
+.faMapMarkerAlt{
+    color: red;
+}
