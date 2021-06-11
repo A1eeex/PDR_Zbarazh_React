@@ -10,3 +10,17 @@
     color: #f3b93e;
     text-decoration: none;
 }
+
+
+@media (max-width: 992px){
+    .phoneNumber{
+    display:none;
+    }
+}
+
+@media (max-width: 767px){
+    .phoneNumber{
+        display:block;
+    }
+}
+

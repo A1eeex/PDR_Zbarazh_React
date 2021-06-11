@@ -1,38 +1,72 @@
-.captionTitleContainer {
-    position:absolute;
-    top: 293px;
-    color: #ffffff;
 
-}
-.captionTitleContainer h3{
-      font-size: 83px;
+.captionTitleContainer h3 {
+    font-size: 83px;
     font-weight: 300;
     text-align: start;
     margin: 0px;
     line-height: .8;
 }
+
 .captionTitleContainer {
-  padding-top: 25px;
+    padding-top: 25px;
 }
 
-
-.captionTitleContainer{
-    position:absolute;
+.captionTitleContainer {
+    position: absolute;
     top: 293px;
     color: #ffffff;
 }
-.IntroTitleContainer{
-padding-bottom:20px;
+
+.introTitleContainer {
+    padding-bottom: 20px;
 }
-.IntroTitle{
+
+.introTitle {
     font-size: 83px;
     font-weight: 300;
     text-align: start;
     margin: 0px;
     line-height: .85;
 }
-.IntroSubtitle{
+
+.introSubtitle {
     margin: 0px;
     line-height: 1.7;
     font-size: 17px;
+}
+
+
+@media (max-width: 997px) {
+
+    .captionTitleContainer {
+        top: 190px;
+    }
+
+    .captionTitleContainer h3 {
+        font-size: 63px;
+    }
+
+    .introSubtitle {
+        font-size: 14px;
+    }
+
+    .introTitle {
+        font-size: 63px;
+    }
+}
+
+@media (max-width: 768px) {
+    .captionTitleContainer {
+        top: 150px;
+    }
+}
+@media (max-width: 746px){
+    .captionTitleContainer h3 {
+        font-size: 53px;
+    }
+
+    .introSubtitle {
+        font-size: 12px;
+    }
+
 }

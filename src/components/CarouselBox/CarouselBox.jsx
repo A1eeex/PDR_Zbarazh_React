@@ -7,8 +7,7 @@ import style from './CarouselBox.module.css'
 import { Container } from "react-bootstrap";
 const CarouselBox = () => {
   return (
-    <div>
-      
+    <div className={style.containerCarouselBox}>
       <Carousel interval={null} >
        
         <Carousel.Item>
@@ -20,10 +19,10 @@ const CarouselBox = () => {
           
          <Container>
            <div className={style.captionTitleContainer}>
-             <div className={style.IntroTitleContainer}>
+             <div className={style.introTitleContainer}>
            <h3>Потрапили під град?</h3>
              </div>
-           <p className={style.IntroSubtitle}>Не біда, проводимо всі відновлювальні роботи кузова.</p>
+           <p className={style.introSubtitle}>Не біда, проводимо всі відновлювальні роботи кузова.</p>
          </div>
          </Container>
         </Carousel.Item>
@@ -36,13 +35,13 @@ const CarouselBox = () => {
           />
           <Container>
             <div className={style.captionTitleContainer}>
-              <div className={style.IntroTitleContainer}>
-                <p className={style.IntroTitle}>Заощаджуємо </p>
-                <p className={style.IntroTitle}>ваш бюджет! </p>
+              <div className={style.introTitleContainer}>
+                <p className={style.introTitle}>Заощаджуємо </p>
+                <p className={style.introTitle}>ваш бюджет! </p>
               </div>
             
-              <p className={style.IntroSubtitle}>Позбавимо кузов вашого автомобіля від будь-яких вм'ятин,</p>
-              <p className={style.IntroSubtitle}>не вдаючись до фарбування, поки ви п'єте чашку кави.</p>
+              <p className={style.introSubtitle}>Позбавимо кузов вашого автомобіля від будь-яких вм'ятин,</p>
+              <p className={style.introSubtitle}>не вдаючись до фарбування, поки ви п'єте чашку кави.</p>
             </div>
           </Container>
          
@@ -57,14 +56,14 @@ const CarouselBox = () => {
     
         <Container>
           <div className={style.captionTitleContainer}>
-          <div className={style.IntroTitleContainer}>
-            <p className={style.IntroTitle}>Швидко </p>
-            <p className={style.IntroTitle}>оцінимо ремонт!</p>
+          <div className={style.introTitleContainer}>
+            <p className={style.introTitle}>Швидко </p>
+            <p className={style.introTitle}>оцінимо ремонт!</p>
           </div>
-            <p className={style.IntroSubtitle}>Час це гроші! Надішліть фото пошкодження кузова </p>
-            <p className={style.IntroSubtitle}>вашого автомобіля нам по <b>Telegram</b> або <b>Viber </b></p>
-            <p className={style.IntroSubtitle}>і отримаєте миттєвий відповідь </p>
-            <p className={style.IntroSubtitle}>докладним описом вартості і часу ремонту. </p>
+            <p className={style.introSubtitle}>Час це гроші! Надішліть фото пошкодження кузова </p>
+            <p className={style.introSubtitle}>вашого автомобіля нам по <b>Telegram</b> або <b>Viber </b></p>
+            <p className={style.introSubtitle}>і отримаєте миттєвий відповідь </p>
+            <p className={style.introSubtitle}>докладним описом вартості і часу ремонту. </p>
           </div>
           
         </Container>
