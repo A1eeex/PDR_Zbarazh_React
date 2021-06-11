@@ -5,8 +5,8 @@
 
 .containerLeft {
     width: 50%;
-padding-left: 5%;
-padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -17,4 +17,19 @@ padding-right: 5%;
 .map {
     width: 100%;
     min-height: 650px;
+}
+
+@media (max-width: 767px) {
+    .containerSection {
+        display: block;
+
+    }
+    .containerLeft {
+        width: 100%;
+
+    }
+    .containerRight {
+        width: 100%;
+        padding: 20px 30px 20px 30px;
+    }
 }

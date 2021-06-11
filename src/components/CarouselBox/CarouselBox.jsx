@@ -4,7 +4,7 @@ import title1 from './../../assets/img/home_slider/auto_title1.jpg'
 import title2 from './../../assets/img/home_slider/auto_title2.jpg'
 import title3 from './../../assets/img/home_slider/auto_title3.jpg'
 import style from './CarouselBox.module.css'
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 const CarouselBox = () => {
   return (
     <div className={style.containerCarouselBox}>
@@ -23,7 +23,12 @@ const CarouselBox = () => {
            <h3>Потрапили під град?</h3>
              </div>
            <p className={style.introSubtitle}>Не біда, проводимо всі відновлювальні роботи кузова.</p>
+             <a className={style.buttonInCarousel} href="/contact" >
+             Звязтись з нами
+             </a>
          </div>
+         
+         
          </Container>
         </Carousel.Item>
         
@@ -42,6 +47,9 @@ const CarouselBox = () => {
             
               <p className={style.introSubtitle}>Позбавимо кузов вашого автомобіля від будь-яких вм'ятин,</p>
               <p className={style.introSubtitle}>не вдаючись до фарбування, поки ви п'єте чашку кави.</p>
+              <a className={style.buttonInCarousel} href="/contact" >
+                Звязтись з нами
+              </a>
             </div>
           </Container>
          
@@ -64,6 +72,9 @@ const CarouselBox = () => {
             <p className={style.introSubtitle}>вашого автомобіля нам по <b>Telegram</b> або <b>Viber </b></p>
             <p className={style.introSubtitle}>і отримаєте миттєвий відповідь </p>
             <p className={style.introSubtitle}>докладним описом вартості і часу ремонту. </p>
+            <a className={style.buttonInCarousel} href="/contact" >
+              Звязтись з нами
+            </a>
           </div>
           
         </Container>

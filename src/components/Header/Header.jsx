@@ -15,7 +15,7 @@ import PhoneNumber from "../PhoneNumber/PhoneNumber";
 const Header = (props) => {
   return (
     <div>
-      <Navbar fixed="top" collapseOnSelect expand="md" className='navBarHeaderBg'>
+      <Navbar  collapseOnSelect expand="md" className='navBarHeaderBg'>
         <Container>
           <Navbar.Brand href="/">
             <div className='containerLogoTitleFlex'>
@@ -31,8 +31,7 @@ const Header = (props) => {
                 PDR_Zbarazh
               </div>
             </div>
-           
-          
+            
           </Navbar.Brand >
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -41,21 +40,14 @@ const Header = (props) => {
               <Nav.Link href="/technology">Про технологію</Nav.Link>
               <Nav.Link href="/photoalbum">Фото наших робіт</Nav.Link>
               <Nav.Link href="/contact">Контакти</Nav.Link>
-              <NavDropdown title="Більше" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="/action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="/action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider/>
-                <NavDropdown.Item href="/action/3.4">Separated link</NavDropdown.Item>
-              </NavDropdown>
             </Nav>
-            <Form inline>
+            {/*<Form inline>*/}
               {/*<Form.Control className="mr-sm-2"*/}
               {/*              type="text"*/}
               {/*              placeholder="Search..."/>*/}
               {/*<Button variant="outline-info">Search </Button>*/}
             <PhoneNumber />
-            </Form>
+            {/*</Form>*/}
           </Navbar.Collapse>
         </Container>
       </Navbar>

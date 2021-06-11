@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import style from './ContactsInfo.module.css'
 import { FaMapMarkerAlt, FaTelegram, FaTelegramPlane } from "react-icons/fa";
 import { FiFacebook, FiInstagram, FiPhoneCall } from "react-icons/fi";
+import { AiOutlineClockCircle } from "react-icons/ai";
 
 
 const ContactsInfo = () => {
@@ -73,6 +74,14 @@ const ContactsInfo = () => {
               </div>
               <div className={style.containerTitleWrapTitleAddress}>
                 <a href="tg://resolve?domain=Just_music_a"> +380 (97) 289 86 56 <FaTelegram/></a>
+              </div>
+            </div>
+            <div className={style.containerTitleWrapper}>
+              <div className={style.containerTitleWrapTitle}>
+                <span className={style.allContactsContainerTitles}>Працюємо:  </span>
+              </div>
+              <div className={style.containerTitleWrapTitleAddress}>
+               <span>з 09:00 до 18:00 | Пн-Сб  </span>
               </div>
             </div>
           </div>

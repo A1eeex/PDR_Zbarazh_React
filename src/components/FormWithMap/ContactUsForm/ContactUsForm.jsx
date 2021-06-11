@@ -34,7 +34,7 @@ const ContactUsForm = (props) => {
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Ваш номер телефону</Form.Label>
-            <Form.Control type="tel" placeholder="+380 (98) 99 99 999 " name="tel"/>
+            <Form.Control type="tel" placeholder="+380 (98) 999 99 99" name="tel"/>
           </Form.Group>
           <Form.Group className="mb-3"  controlId="exampleForm.ControlTextarea1">
             <Form.Label>Ваше повідомлення</Form.Label>

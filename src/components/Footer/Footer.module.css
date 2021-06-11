@@ -6,7 +6,6 @@
 .footerSocial {
     display: flex;
     padding-top: 25px;
-
 }
 
 .footerSocialLeft {
@@ -61,4 +60,16 @@
 }
 .footerAuthor div {
     line-height:0;
+}
+@media (max-width: 535px){
+    .footerSocialLeft {
+        display: block;
+    }
+    .footerSocialRight {
+        display: block;
+    }
+    .footerSocial {
+        text-align: center;
+    }
+
 }

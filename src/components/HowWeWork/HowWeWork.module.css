@@ -1,0 +1,16 @@
+.bgColor {
+
+    background-color: #f3b93e;
+}
+.allWorkContainer{
+    display: flex;
+}
+.mainWorkTitle {
+    color: #fff;
+    text-align: center;
+}
+
+.workSubContainer {
+    width: 25%;
+
+}
