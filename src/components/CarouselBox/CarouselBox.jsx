@@ -8,7 +8,7 @@ import { Button, Container } from "react-bootstrap";
 const CarouselBox = () => {
   return (
     <div className={style.containerCarouselBox}>
-      <Carousel interval={null} >
+      <Carousel  >
        
         <Carousel.Item>
           <img

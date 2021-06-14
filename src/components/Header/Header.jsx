@@ -15,7 +15,7 @@ import PhoneNumber from "../PhoneNumber/PhoneNumber";
 const Header = (props) => {
   return (
     <div>
-      <Navbar  collapseOnSelect expand="md" className='navBarHeaderBg'>
+      <Navbar   collapseOnSelect expand="md" className='navBarHeaderBg'>
         <Container>
           <Navbar.Brand href="/">
             <div className='containerLogoTitleFlex'>
