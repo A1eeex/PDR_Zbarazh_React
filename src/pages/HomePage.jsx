@@ -2,7 +2,7 @@ import React from 'react';
 import CarouselBox from "../components/CarouselBox/CarouselBox";
 import HowWeWork from "../components/HowWeWork/HowWeWork";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       <CarouselBox />
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

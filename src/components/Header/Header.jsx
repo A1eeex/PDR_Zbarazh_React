@@ -3,10 +3,10 @@ import { Button, Container, Form, Nav, Navbar, NavDropdown } from "react-bootstr
 import logoPicture from "./../../assets/img/logo_pdr_zbarazh_big.png"
 import './Header.modules.css'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "../../pages/Home";
-import Technology from "../../pages/Technology";
-import PhotoAlbum from "../../pages/PhotoAlbum";
-import Contact from "../../pages/Contact";
+import HomePage from "../../pages/HomePage";
+import TechnologyPage from "../../pages/TechnologyPage";
+import PhotoAlbumPage from "../../pages/PhotoAlbumPage";
+import ContactPage from "../../pages/ContactPage";
 import Footer from "../Footer/Footer";
 import './../../App.css'
 import PhoneNumber from "../PhoneNumber/PhoneNumber";
@@ -54,10 +54,10 @@ const Header = (props) => {
       
       <Router>
         <Switch>
-          <Route exact path="/" render={() => <Home/>}/>
-          <div className='wrapper-route'> <Route path="/technology" render={() => <Technology/>}/>
-            <Route path="/photoalbum" render={() => <PhotoAlbum/>}/>
-            <Route path="/contact" render={() => <Contact/>}/></div>
+          <Route exact path="/" render={() => <HomePage/>}/>
+          <div className='wrapper-route'> <Route path="/technology" render={() => <TechnologyPage/>}/>
+            <Route path="/photoalbum" render={() => <PhotoAlbumPage/>}/>
+            <Route path="/contact" render={() => <ContactPage/>}/></div>
         </Switch>
       </Router>
       

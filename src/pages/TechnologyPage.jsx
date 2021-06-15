@@ -2,7 +2,7 @@ import React from 'react';
 import TechnologyText from "../components/TechnologyText/TechnologyText";
 import { Container } from "react-bootstrap";
 
-const Technology = () => {
+const TechnologyPage = () => {
   return (
     <div>
       <Container>
@@ -12,4 +12,4 @@ const Technology = () => {
   );
 };
 
-export default Technology;
+export default TechnologyPage;

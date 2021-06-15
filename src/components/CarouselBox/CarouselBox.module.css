@@ -1,3 +1,6 @@
+.carousel-indicators li{
+    display: none;
+}
 
 .captionTitleContainer h3 {
     font-size: 83px;
@@ -35,7 +38,7 @@
     font-size: 17px;
 }
 
-.buttonInCarousel{
+.buttonInCarousel {
     display: inline-block;
     background: rgba(255, 176, 62, 0.70);
     color: #fff;
@@ -46,20 +49,22 @@
     font-size: 18px;
     line-height: 1;
     font-weight: 100;
-    margin-top:25px;
+    margin-top: 25px;
 }
-.buttonInCarousel:hover{
+
+.buttonInCarousel:hover {
     color: #fff;
     background: rgba(255, 176, 62, 0.87);
 }
 
-@media (max-width: 1335px){
+@media (max-width: 1335px) {
 
     .captionTitleContainer {
         padding-left: 55px;
     }
 }
-    @media (max-width: 997px) {
+
+@media (max-width: 997px) {
 
     .captionTitleContainer {
         top: 150px;
@@ -73,8 +78,9 @@
     .introTitle {
         font-size: 63px;
     }
+
     .introSubtitle {
-        font-size: 14px;
+        font-size: 17px;
     }
 }
 
@@ -83,15 +89,19 @@
         top: 120px;
     }
 }
+
 @media (max-width: 768px) {
     .captionTitleContainer {
         top: 110px;
+        padding-left: 45px;
     }
 }
-@media (max-width: 746px){
+
+@media (max-width: 746px) {
     .captionTitleContainer h3 {
         font-size: 53px;
     }
+
     .introTitle {
         font-size: 53px;
     }
@@ -115,9 +125,11 @@
             top: 100px;
             padding-left: 30px;
         }
+
         .captionTitleContainer h3 {
             font-size: 43px;
         }
+
         .introTitle {
             font-size: 43px;
         }
@@ -128,9 +140,11 @@
             top: 75px;
             padding-left: 45px;
         }
+
         .captionTitleContainer h3 {
             font-size: 40px;
         }
+
         .introTitle {
             font-size: 40px;
         }
@@ -142,47 +156,70 @@
             top: 50px;
             padding-left: 40px;
         }
+
         .captionTitleContainer h3 {
             font-size: 35px;
         }
+
         .introTitle {
             font-size: 35px;
         }
-        .buttonInCarousel{
+
+        .buttonInCarousel {
             padding: 6px;
             font-size: 14px;
-            margin-top:8px;
+            margin-top: 8px;
         }
 
         .introTitleContainer {
             padding-bottom: 10px;
         }
     }
-    @media (max-width: 450px){
+    @media (max-width: 450px) {
         .captionTitleContainer {
-            top: 46px;
+            top: 17px;
             padding-left: 30px;
         }
+
         .captionTitleContainer h3 {
-            font-size: 30px;
+            font-size: 37px;
         }
+
         .introTitle {
-            font-size: 30px;
+            font-size: 37px;
         }
+
         .introSubtitle {
             font-size: 12px;
         }
     }
-    @media (max-width: 376px){
+    @media (max-width: 376px) {
         .captionTitleContainer {
             top: -2px;
             padding-left: 30px;
         }
+
         .captionTitleContainer h3 {
             font-size: 35px;
         }
+
         .introTitle {
             font-size: 35px;
+        }
+
+    }
+    @media (max-width: 320px) {
+
+        .captionTitleContainer {
+            top: -15px;
+            padding-left: 28px;
+        }
+        .introSubtitle {
+            font-size: 11px;
+        }
+
+        .carousel-indicators li {
+            display: none;
         }
     }
 }

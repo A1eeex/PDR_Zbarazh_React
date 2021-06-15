@@ -3,7 +3,7 @@ import FormWithMap from "../components/FormWithMap/FormWithMap";
 import ContactsInfo from "../components/ContactsSection/ContactsInfo";
 
 
-const Contact = () => {
+const ContactPage = () => {
   return (
     <div>
       <ContactsInfo />
@@ -12,4 +12,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;
