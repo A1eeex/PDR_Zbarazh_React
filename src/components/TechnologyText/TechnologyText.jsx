@@ -1,9 +1,10 @@
 import React from 'react';
 import style from './TechnologyText.module.css'
+import Footer from "../Footer/Footer";
 
 const TechnologyText = () => {
   return (
-    <div className={style.technologyTextSection}>
+    <div className={style.technologyTextSection} style={{ height:'70vh',marginBottom:'50px'}}>
       <h2>Особливості технології</h2>
       <p>
         Суть технології полягає в тому, що механічна дія на деталь здійснюється з внутрішньої сторони. І тому його можна
@@ -59,9 +60,9 @@ const TechnologyText = () => {
       <p> Буває, що можна відновити заводське лакофарбове покриття за допомогою полірування. Але при появі перших слідів
         корозії та масивних пошкодженнях - необхідно виконати рихтування та фарбування.
       </p>
-    
-    
+
     </div>
+
   );
 };
 
