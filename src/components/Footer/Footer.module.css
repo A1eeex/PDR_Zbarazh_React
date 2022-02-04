@@ -38,17 +38,21 @@
 
 .footerAddress {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     color: #cccccc;
 }
-
+.addressIcon{
+    margin-right: 10px;
+}
 .footerAddress svg {
-    color: #ff0000
+    color: #ff0000;
+    font-size: 16px;
 }
 
 .footerAddressTitle {
-    margin: 20px 0 30px 10px;
+    margin: 20px 0 30px 0;
+    font-size: 12px;
 }
 
 .footerAuthor{

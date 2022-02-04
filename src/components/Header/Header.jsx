@@ -17,20 +17,21 @@ const Header = (props) => {
     <div>
       <Navbar   collapseOnSelect expand="md" className='navBarHeaderBg'>
         <Container>
-          <Navbar.Brand href="/">
-            <div className='containerLogoTitleFlex'>
-              <img
+          <div className='containerLogoTitleFlex'>
+            <img
                 alt=""
                 src={logoPicture}
                 width="100"
                 // height="60"
                 className="d-inline-block align-top"
-              />{' '}
-              
-              <div className='NavLogoTitle'>
-                PDR_Zbarazh
-              </div>
+            />{' '}
+
+            <div className='NavLogoTitle'>
+              PDR_Zbarazh
             </div>
+          </div>
+          <Navbar.Brand href="/">
+
             
           </Navbar.Brand >
           <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

@@ -24,7 +24,10 @@ const Footer = () => {
   
        <a href="https://goo.gl/maps/xFhLyFKfqFz7ow7f6" target='blank'>
          <div className={style.footerAddress}>
-         <FaMapMarkerAlt />
+           <span className={style.addressIcon}>
+              <FaMapMarkerAlt />
+           </span>
+
          <span className={style.footerAddressTitle}>Вул. Стрийська, 13, Підгородне, Тернопільська область, 47751</span>
        </div>
        </a>
