@@ -38,9 +38,14 @@
     color: rgb(0, 0, 0);
     transition: color .2s linear;
     cursor: pointer;
+    font-size: 12px;
+}
+.containerTitleWrapTitleAddress span{
+
+    font-size: 12px;
 }
 .containerTitleWrapTitleAddress a svg{
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 5px 5px 5px;
 }
 .containerTitleWrapTitleAddress a:hover{

@@ -93,7 +93,7 @@ const ContactUsForm = (props) => {
   return (
     <div>
       <Form onSubmit={sendEmail}>
-        <h2 className='text-center'>Напишіть до нас</h2>
+        <h1 className='text-center'>Напишіть до нас</h1>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           {(userNamelDirty && userNameError) && <div style={{color: 'red'}}>{userNameError}</div>}
           <Form.Label>Ваше ім'я</Form.Label>

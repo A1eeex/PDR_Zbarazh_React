@@ -5,10 +5,10 @@ import ContactsInfo from "../components/ContactsSection/ContactsInfo";
 
 const ContactPage = () => {
   return (
-    <>
+    <div style={{marginTop:'100px'}}>
       <ContactsInfo />
       <FormWithMap />
-    </>
+    </div>
   );
 };
 
