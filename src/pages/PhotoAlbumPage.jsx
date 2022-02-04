@@ -3,9 +3,9 @@ import PhotoAlbum from "../components/PhotoAlbum/PhotoAlbum";
 
 const PhotoAlbumPage = (props) => {
   return (
-    <div>
+    <>
       <PhotoAlbum/>
-    </div>
+    </>
   );
 };
 

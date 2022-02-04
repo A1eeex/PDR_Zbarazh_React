@@ -4,10 +4,10 @@ import HowWeWork from "../components/HowWeWork/HowWeWork";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <CarouselBox />
       <HowWeWork />
-    </div>
+    </>
   );
 };
 
