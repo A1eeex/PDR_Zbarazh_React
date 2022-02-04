@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 
 const TechnologyText = () => {
   return (
-    <div className={style.technologyTextSection} style={{ height:'70vh',marginBottom:'50px'}}>
+    <div className={style.technologyTextSection} >
       <h2>Особливості технології</h2>
       <p>
         Суть технології полягає в тому, що механічна дія на деталь здійснюється з внутрішньої сторони. І тому його можна

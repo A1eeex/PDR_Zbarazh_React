@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 const TechnologyPage = () => {
   return (
-    <div style={{marginTop:'100px', minHeight:'70vh',marginBottom:'50px'}}>
+    <div >
       <Container>
      <TechnologyText />
       </Container>
