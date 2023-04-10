@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/PDR_Zbarazh_React/static/css/main.7c8eebfa.chunk.css",
+    "main.js": "/PDR_Zbarazh_React/static/js/main.2ef49a29.chunk.js",
+    "main.js.map": "/PDR_Zbarazh_React/static/js/main.2ef49a29.chunk.js.map",
+    "runtime-main.js": "/PDR_Zbarazh_React/static/js/runtime-main.63cb4fed.js",
+    "runtime-main.js.map": "/PDR_Zbarazh_React/static/js/runtime-main.63cb4fed.js.map",
+    "static/css/2.c4e73993.chunk.css": "/PDR_Zbarazh_React/static/css/2.c4e73993.chunk.css",
+    "static/js/2.75f0e093.chunk.js": "/PDR_Zbarazh_React/static/js/2.75f0e093.chunk.js",
+    "static/js/2.75f0e093.chunk.js.map": "/PDR_Zbarazh_React/static/js/2.75f0e093.chunk.js.map",
+    "static/js/3.e0493642.chunk.js": "/PDR_Zbarazh_React/static/js/3.e0493642.chunk.js",
+    "static/js/3.e0493642.chunk.js.map": "/PDR_Zbarazh_React/static/js/3.e0493642.chunk.js.map",
+    "index.html": "/PDR_Zbarazh_React/index.html",
+    "static/css/2.c4e73993.chunk.css.map": "/PDR_Zbarazh_React/static/css/2.c4e73993.chunk.css.map",
+    "static/css/main.7c8eebfa.chunk.css.map": "/PDR_Zbarazh_React/static/css/main.7c8eebfa.chunk.css.map",
+    "static/js/2.75f0e093.chunk.js.LICENSE.txt": "/PDR_Zbarazh_React/static/js/2.75f0e093.chunk.js.LICENSE.txt",
+    "static/media/auto_title1.e6695173.jpg": "/PDR_Zbarazh_React/static/media/auto_title1.e6695173.jpg",
+    "static/media/auto_title2.a4a88862.jpg": "/PDR_Zbarazh_React/static/media/auto_title2.a4a88862.jpg",
+    "static/media/auto_title3.83c3db80.jpg": "/PDR_Zbarazh_React/static/media/auto_title3.83c3db80.jpg",
+    "static/media/fotoFromWork1.884e3e07.jpg": "/PDR_Zbarazh_React/static/media/fotoFromWork1.884e3e07.jpg",
+    "static/media/fotoFromWork2.1b9eb877.jpg": "/PDR_Zbarazh_React/static/media/fotoFromWork2.1b9eb877.jpg",
+    "static/media/fotoFromWork3.62645325.jpg": "/PDR_Zbarazh_React/static/media/fotoFromWork3.62645325.jpg",
+    "static/media/fotoFromWork4.33f740b2.jpg": "/PDR_Zbarazh_React/static/media/fotoFromWork4.33f740b2.jpg",
+    "static/media/fotoFromWork5.f1fc9875.jpg": "/PDR_Zbarazh_React/static/media/fotoFromWork5.f1fc9875.jpg",
+    "static/media/fotoFromWork6.8168c203.jpg": "/PDR_Zbarazh_React/static/media/fotoFromWork6.8168c203.jpg",
+    "static/media/logo_pdr_zbarazh_big.bd45ac7f.png": "/PDR_Zbarazh_React/static/media/logo_pdr_zbarazh_big.bd45ac7f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63cb4fed.js",
+    "static/css/2.c4e73993.chunk.css",
+    "static/js/2.75f0e093.chunk.js",
+    "static/css/main.7c8eebfa.chunk.css",
+    "static/js/main.2ef49a29.chunk.js"
+  ]
+}
