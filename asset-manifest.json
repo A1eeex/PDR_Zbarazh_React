@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PDR_Zbarazh_React/static/css/main.bbf40c8e.chunk.css",
-    "main.js": "/PDR_Zbarazh_React/static/js/main.7dd24712.chunk.js",
-    "main.js.map": "/PDR_Zbarazh_React/static/js/main.7dd24712.chunk.js.map",
+    "main.js": "/PDR_Zbarazh_React/static/js/main.db674d32.chunk.js",
+    "main.js.map": "/PDR_Zbarazh_React/static/js/main.db674d32.chunk.js.map",
     "runtime-main.js": "/PDR_Zbarazh_React/static/js/runtime-main.b851aeda.js",
     "runtime-main.js.map": "/PDR_Zbarazh_React/static/js/runtime-main.b851aeda.js.map",
     "static/css/2.c4e73993.chunk.css": "/PDR_Zbarazh_React/static/css/2.c4e73993.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.c4e73993.chunk.css",
     "static/js/2.fdc8de11.chunk.js",
     "static/css/main.bbf40c8e.chunk.css",
-    "static/js/main.7dd24712.chunk.js"
+    "static/js/main.db674d32.chunk.js"
   ]
 }
