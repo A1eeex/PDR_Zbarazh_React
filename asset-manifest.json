@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/PDR_Zbarazh_React/static/css/main.bbf40c8e.chunk.css",
-    "main.js": "/PDR_Zbarazh_React/static/js/main.db674d32.chunk.js",
-    "main.js.map": "/PDR_Zbarazh_React/static/js/main.db674d32.chunk.js.map",
-    "runtime-main.js": "/PDR_Zbarazh_React/static/js/runtime-main.b851aeda.js",
-    "runtime-main.js.map": "/PDR_Zbarazh_React/static/js/runtime-main.b851aeda.js.map",
+    "main.js": "/PDR_Zbarazh_React/static/js/main.f8765590.chunk.js",
+    "main.js.map": "/PDR_Zbarazh_React/static/js/main.f8765590.chunk.js.map",
+    "runtime-main.js": "/PDR_Zbarazh_React/static/js/runtime-main.a94db4e0.js",
+    "runtime-main.js.map": "/PDR_Zbarazh_React/static/js/runtime-main.a94db4e0.js.map",
     "static/css/2.c4e73993.chunk.css": "/PDR_Zbarazh_React/static/css/2.c4e73993.chunk.css",
-    "static/js/2.fdc8de11.chunk.js": "/PDR_Zbarazh_React/static/js/2.fdc8de11.chunk.js",
-    "static/js/2.fdc8de11.chunk.js.map": "/PDR_Zbarazh_React/static/js/2.fdc8de11.chunk.js.map",
-    "static/js/3.ae5646a0.chunk.js": "/PDR_Zbarazh_React/static/js/3.ae5646a0.chunk.js",
-    "static/js/3.ae5646a0.chunk.js.map": "/PDR_Zbarazh_React/static/js/3.ae5646a0.chunk.js.map",
+    "static/js/2.6ae11396.chunk.js": "/PDR_Zbarazh_React/static/js/2.6ae11396.chunk.js",
+    "static/js/2.6ae11396.chunk.js.map": "/PDR_Zbarazh_React/static/js/2.6ae11396.chunk.js.map",
+    "static/js/3.f4dd3070.chunk.js": "/PDR_Zbarazh_React/static/js/3.f4dd3070.chunk.js",
+    "static/js/3.f4dd3070.chunk.js.map": "/PDR_Zbarazh_React/static/js/3.f4dd3070.chunk.js.map",
     "index.html": "/PDR_Zbarazh_React/index.html",
     "static/css/2.c4e73993.chunk.css.map": "/PDR_Zbarazh_React/static/css/2.c4e73993.chunk.css.map",
     "static/css/main.bbf40c8e.chunk.css.map": "/PDR_Zbarazh_React/static/css/main.bbf40c8e.chunk.css.map",
-    "static/js/2.fdc8de11.chunk.js.LICENSE.txt": "/PDR_Zbarazh_React/static/js/2.fdc8de11.chunk.js.LICENSE.txt",
+    "static/js/2.6ae11396.chunk.js.LICENSE.txt": "/PDR_Zbarazh_React/static/js/2.6ae11396.chunk.js.LICENSE.txt",
     "static/media/auto_title1.e6695173.jpg": "/PDR_Zbarazh_React/static/media/auto_title1.e6695173.jpg",
     "static/media/auto_title2.a4a88862.jpg": "/PDR_Zbarazh_React/static/media/auto_title2.a4a88862.jpg",
     "static/media/auto_title3.83c3db80.jpg": "/PDR_Zbarazh_React/static/media/auto_title3.83c3db80.jpg",
@@ -26,10 +26,10 @@
     "static/media/logo_pdr_zbarazh_big.bd45ac7f.png": "/PDR_Zbarazh_React/static/media/logo_pdr_zbarazh_big.bd45ac7f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b851aeda.js",
+    "static/js/runtime-main.a94db4e0.js",
     "static/css/2.c4e73993.chunk.css",
-    "static/js/2.fdc8de11.chunk.js",
+    "static/js/2.6ae11396.chunk.js",
     "static/css/main.bbf40c8e.chunk.css",
-    "static/js/main.db674d32.chunk.js"
+    "static/js/main.f8765590.chunk.js"
   ]
 }
