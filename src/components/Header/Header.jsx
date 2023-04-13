@@ -49,9 +49,9 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <BrowserRouter basename='/PDR_Zbarazh_React'>
+            <BrowserRouter basename='/'>
                 <Routes>          
-                    <Route exact path="/PDR_Zbarazh_React" element={<HomePage/>}/>
+                    <Route exact path="/" element={<HomePage/>}/>
                     {/* <div className='wrapper-route'> */}
                         <Route path="/technology" element={<TechnologyPage/>}/>
                         <Route path="/photoalbum" element={<PhotoAlbumPage/>}/>
