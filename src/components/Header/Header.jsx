@@ -2,7 +2,8 @@ import React from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import logoPicture from "./../../assets/img/logo_pdr_zbarazh_big.png"
 import './Header.modules.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import HomePage from "../../pages/HomePage";
 import TechnologyPage from "../../pages/TechnologyPage";
 import PhotoAlbumPage from "../../pages/PhotoAlbumPage";
@@ -49,16 +50,16 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <BrowserRouter basename="/PDR_Zbarazh_React">
-                <Routes>          
-                    <Route exact path="/" element={<HomePage/>}/>
+            <HashRouter >
+                <Switch>          
+                    <Route exact path="/" component={<HomePage/>}/>
                     {/* <div className='wrapper-route'> */}
-                        <Route path="/technology" element={<TechnologyPage/>}/>
-                        <Route path="/photoalbum" element={<PhotoAlbumPage/>}/>
-                        <Route path="/contact" element={<ContactPage/>}/>
+                        <Route path="/technology" component={<TechnologyPage/>}/>
+                        <Route path="/photoalbum" component={<PhotoAlbumPage/>}/>
+                        <Route path="/contact" component={<ContactPage/>}/>
                     {/* </div>       */}
-                </Routes>
-            </BrowserRouter>
+                </Switch>
+            </HashRouter>
             <Footer/>
         </div>
     );
