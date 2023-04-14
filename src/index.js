@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/PDR_Zbarazh_React">
             <App />
         </BrowserRouter>
     </StrictMode>
