@@ -3,11 +3,8 @@ import {Container, Nav, Navbar} from "react-bootstrap";
 import logoPicture from "./../../assets/img/logo_pdr_zbarazh_big.png"
 import './Header.modules.css'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HashRouter, Route, Routes, Switch } from 'react-router-dom';
-import HomePage from "../../pages/HomePage";
-import TechnologyPage from "../../pages/TechnologyPage";
-import PhotoAlbumPage from "../../pages/PhotoAlbumPage";
-import ContactPage from "../../pages/ContactPage";
+import {Link} from "react-router-dom";
+
 import Footer from "../Footer/Footer";
 import './../../App.css'
 import PhoneNumber from "../PhoneNumber/PhoneNumber";
@@ -34,12 +31,18 @@ const Header = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className={"mr-auto" + " " + "nav-Custom"}>
+                        <Nav className={"mr-auto nav-Custom "}>
+                            <Link to="/" className="mx-2">Головна</Link>
+                            <Link to="/technology" className="mx-2">Про технологію</Link>
+                            <Link to="/photoalbum" className="mx-2">Фото наших робіт</Link>
+                            <Link to="/contact" className="mx-2">Контакти</Link>
+                        </Nav>
+                        {/* <Nav className={"mr-auto" + " " + "nav-Custom"}>
                             <Nav.Link href="/">Головна</Nav.Link>
                             <Nav.Link href="/technology">Про технологію</Nav.Link>
                             <Nav.Link href="/photoalbum">Фото наших робіт</Nav.Link>
                             <Nav.Link href="/contact">Контакти</Nav.Link>
-                        </Nav>
+                        </Nav> */}
                         {/*<Form inline>*/}
                         {/*<Form.Control className="mr-sm-2"*/}
                         {/*              type="text"*/}
@@ -50,16 +53,6 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-           
-                <Routes>
-                    <Route exact path="/" element={<HomePage/>}/>
-                    {/* <div className='wrapper-route'> */}
-                         <Route path="/technology" element={<TechnologyPage/>}/> 
-                        <Route path="/photoalbum" element={<PhotoAlbumPage/>}/>
-                        <Route path="/contact" element={<ContactPage/>}/> 
-                    {/* </div>       */}
-                </Routes>   
-            <Footer/>
         </div>
     );
 };
