@@ -23,7 +23,7 @@ const CarouselBox = () => {
            <h3>Потрапили під град?</h3>
              </div>
            <p className={style.introSubtitle}>Не біда, проводимо всі відновлювальні роботи кузова.</p>
-             <a className={style.buttonInCarousel} href="/contact" >
+             <a className={style.buttonInCarousel} href="/PDR_Zbarazh_React/contact" >
              Звязтись з нами
              </a>
          </div>
@@ -47,7 +47,7 @@ const CarouselBox = () => {
             
               <p className={style.introSubtitle}>Позбавимо кузов вашого автомобіля від будь-яких вм'ятин,</p>
               <p className={style.introSubtitle}>не вдаючись до фарбування, поки ви п'єте чашку кави.</p>
-              <a className={style.buttonInCarousel} href="/contact" >
+              <a className={style.buttonInCarousel} href="/PDR_Zbarazh_React/contact" >
                 Звязтись з нами
               </a>
             </div>
@@ -72,7 +72,7 @@ const CarouselBox = () => {
             <p className={style.introSubtitle}>вашого автомобіля нам по <b>Telegram</b> або <b>Viber </b></p>
             <p className={style.introSubtitle}>і отримаєте миттєвий відповідь </p>
             <p className={style.introSubtitle}>докладним описом вартості і часу ремонту. </p>
-            <a className={style.buttonInCarousel} href="/contact" >
+            <a className={style.buttonInCarousel} href="/PDR_Zbarazh_React/contact" >
               Звязтись з нами
             </a>
           </div>

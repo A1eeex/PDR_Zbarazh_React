@@ -6,7 +6,7 @@ import ContactsInfo from "../components/ContactsSection/ContactsInfo";
 const ContactPage = () => {
   return (
     <div>
-      <ContactsInfo />
+      <ContactsInfo /> 
       <FormWithMap />
     </div>
   );

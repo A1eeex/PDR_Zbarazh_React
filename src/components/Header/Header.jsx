@@ -25,9 +25,9 @@ const Header = () => {
   };
     return (
         <div>
-            <Navbar collapseOnSelect expand="md" className={` header_menu ${scrollPosition > 0 ? ' fixed_header' : ''}` }>
+            <Navbar collapseOnSelect expand="md" className={`header_menu ${scrollPosition > 0 ? ' fixed_header' : ''}` }>
                 <Container>
-                    <div className='containerLogoTitleFlex'>
+                    <Link to='/' className='containerLogoTitleFlex'>
                         <img
                             alt=""
                             src={logoPicture}
@@ -39,7 +39,7 @@ const Header = () => {
                         <div className='NavLogoTitle'>
                             PDR_Zbarazh
                         </div>
-                    </div>
+                    </Link>
                     <Navbar.Brand href="/">
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
