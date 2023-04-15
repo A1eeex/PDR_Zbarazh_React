@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import logoPicture from "./../../assets/img/logo_pdr_zbarazh_big.png"
 import './Header.modules.css'
@@ -10,9 +10,22 @@ import './../../App.css'
 import PhoneNumber from "../PhoneNumber/PhoneNumber";
 
 const Header = () => {
+
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+    
+  }, []);
+  const handleScroll = () => {
+    setScrollPosition(window.scrollY);
+  };
     return (
         <div>
-            <Navbar collapseOnSelect expand="md" className='navBarHeaderBg'>
+            <Navbar collapseOnSelect expand="md" className={` header_menu ${scrollPosition > 0 ? ' fixed_header' : ''}` }>
                 <Container>
                     <div className='containerLogoTitleFlex'>
                         <img

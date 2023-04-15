@@ -1,5 +1,5 @@
 /*Header background*/
-
+/* 
 #root > div > div > nav {
     background-color: rgba(91, 91, 91, .9);
     position: fixed;
@@ -8,7 +8,19 @@
     margin: 0;
     border-radius: 0;
     top: 0;
-}
+} */
+.header_menu {
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(91, 91, 91, .9);
+  }
+.fixed_header {
+    position: fixed!important;
+  }
+  
 /*Header nav*/
 .nav-Custom{
     font-size:15px;
